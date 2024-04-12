@@ -110,3 +110,78 @@ cd ..
 mv number_guessing_name number_guessing_game
 git log --oneline
 git diff
+cd number_guessing_
+cd number_guessing_game/
+cd ..
+ls --color=auto -f
+rm -r number_guessing_name/
+cd number_guessing_game/
+git status
+git log --oneline
+git add .
+git commit -m "feat: progress"
+git add .
+git status
+git status
+git add .
+git commit -m "feat: progress"
+git add .
+git commit -m "feat: progress"
+git add .
+git commit -m "feat: progress"
+git log --oneline
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+2
+__vsc_prompt_cmd_original
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+git status
+git add .
+git commit -m "feat: progress"
+./number_guess.sh
+__vsc_prompt_cmd_original
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+git add .
+git commit -m "feat: progress"
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+./number_guess.sh
+git add .
+git commit -m "feat: progress"
