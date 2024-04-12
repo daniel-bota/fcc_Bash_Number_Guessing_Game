@@ -108,3 +108,5 @@ git rebase --interactive --root
 git log --oneline
 cd ..
 mv number_guessing_name number_guessing_game
+git log --oneline
+git diff
