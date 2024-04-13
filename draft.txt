@@ -1,14 +1,15 @@
-CREATE TABLE users(
-  user_id SERIAL PRIMARY KEY,
-  username VARCHAR(22) NOT NULL);
+CREATE DATABASE number_guess;
 
-CREATE TABLE games(
-  game_id SERIAL PRIMARY KEY,
-  guesses INT);
+CREATE TABLE users(user_id SERIAL PRIMARY KEY, username VARCHAR(22));
 
-ALTER TABLE games ADD COLUMN user_id INT;
+CREATE TABLE games(game_id SERIAL PRIMARY KEY, user_id INT, number_of_guesses INT, secret_number INT);
 ALTER TABLE games ADD FOREIGN KEY(user_id) REFERENCES users(user_id);
-ALTER TABLE users ADD UNIQUE(username);
 
-ALTER TABLE games ALTER COLUMN user_id SET NOT NULL;
-ALTER TABLE games ALTER COLUMN guesses SET NOT NULL;
+TRUNCATE games, users CASCADE;
+
+
+CREATE TABLE guesses(guess_id SERIAL, game_id INT, nth_game INT, criteria VARCHAR(10), input VARCHAR);
+ALTER TABLE guesses ADD FOREIGN KEY(game_id) REFERENCES games(game_id);
+
+ALTER TABLE guesses ADD COLUMN user_id INT;
+ALTER TABLE guesses ADD FOREIGN KEY(user_id) REFERENCES users(user_id);
