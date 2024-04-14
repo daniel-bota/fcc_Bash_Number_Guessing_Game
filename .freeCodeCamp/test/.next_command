@@ -1001,3 +1001,5 @@ cp number_guess.sh ../number_guess.sh
 pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
 git add .
 git commit -m "feat: progress"
+git add .
+git commit -m "feat: progress"
