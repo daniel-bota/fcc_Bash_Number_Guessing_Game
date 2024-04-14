@@ -2,7 +2,7 @@
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
-STOLEN_SCRIPT()
+FINAL_SCRIPT()
 {
   # promp player for username
   echo -e "\nEnter your username:"
@@ -186,20 +186,4 @@ SCRIPT()
   done
 }
 
-STOLEN_SCRIPT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+FINAL_SCRIPT
