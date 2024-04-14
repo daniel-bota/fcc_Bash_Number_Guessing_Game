@@ -993,3 +993,4 @@ psql --username=freecodecamp --dbname=postgres
 git status
 git add .
 git commit -m "feat: finish"
+git config --global user.email
