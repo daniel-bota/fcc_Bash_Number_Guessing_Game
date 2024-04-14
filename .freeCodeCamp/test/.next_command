@@ -994,3 +994,7 @@ git status
 git add .
 git commit -m "feat: finish"
 git config --global user.email
+cd ..
+__vsc_prompt_cmd_original
+cd number_guessing_game/
+cp number_guess.sh ../number_guess.sh
