@@ -1228,3 +1228,12 @@ git commit -m "feat: progress"
 cp number_guess.sh ../number_guess.sh
 cd ..
 pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+git config --global user.email
+git remote -v
+git remote
+git remote --hlep
+git remote --help
+git remote remove origin
+git remote -v
+git remote add origin https://github.com/daniel-bota/fcc_Bash_Number_Guessing_Game
+git remote -v
